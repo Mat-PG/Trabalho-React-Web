@@ -14,9 +14,9 @@ function Home() {
 
       <Banner titulo="STAR WARS LOVED" mensagem="Um site para fans da franquia Star Wars, contendo inumeras informações sobre esse universo" />
 
-      <section id="three" class="wrapper special">
-        <div class="inner">
-          <header class="align-center">
+      <section id="three" className="wrapper special">
+        <div className="inner">
+          <header className="align-center">
             <h2>Projeto StarWarsLoved</h2>
             <p></p>
             <p> Feito por Matheus Pereira Garbossa </p>
