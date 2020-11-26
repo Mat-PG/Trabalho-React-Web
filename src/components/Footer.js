@@ -10,11 +10,9 @@ function Footer() {
             &copy; Desenvolvido, por Matheus Pereira Garbossa, como trabalho avaliativo para a materia de Tópicos especiais em programação.
 						</div>
           <ul className="icons">
-            <li><Link to="#" className="icon fa-facebook"><span className="label">Facebook</span></Link></li>
-            <li><Link to="#" className="icon fa-twitter"><span className="label">Twitter</span></Link></li>
-            <li><Link to="#" className="icon fa-linkedin"><span className="label">linkedIn</span></Link></li>
-            <li><Link to="#" className="icon fa-pinterest-p"><span className="label">Pinterest</span></Link></li>
-            <li><Link to="#" className="icon fa-vimeo"><span className="label">Vimeo</span></Link></li>
+            <li><Link to="facebook.com" className="icon fa-facebook"><span className="label">Facebook</span></Link></li>
+            <li><Link to="twitter.com" className="icon fa-twitter"><span className="label">Twitter</span></Link></li>
+            <li><Link to="linkedin.com" className="icon fa-linkedin"><span className="label">linkedIn</span></Link></li>
           </ul>
         </div>
       </div>

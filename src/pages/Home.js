@@ -5,7 +5,6 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import { Button } from 'semantic-ui-react'
 
 function Home() {
 
@@ -16,17 +15,17 @@ function Home() {
 
       <Header />
 
-      <Banner titulo="STAR WARS LOVED" mensagem="Um site para fans da franquia Star Wars, contendo inumeras informações sobre esse universo" />
+      <Banner titulo="BEM VINDO" />
 
       <section id="three" className="wrapper special">
         <div className="inner">
           <header className="align-center">
-            <h2>Projeto StarWarsLoved</h2>
+            <h2>SkyPass</h2>
             <p></p>
-            <p> Feito por Matheus Pereira Garbossa </p>
-            <p> Email: matheusgarbossa@gmail.com </p>
-            <p>RA: 1120451</p>
-            <Link to="/Login">Login</Link>
+            <p> Um site projetado para melhorar a sua experiencia astronomica </p>
+            
+            <p>Para ter acesso aos recursos é necessario estar logado</p>
+            <p>Faça login <Link to="/Login"> aqui </Link> ou <Link to="/Login"> registre-se </Link> </p>
           </header>
         </div>
       </section>
