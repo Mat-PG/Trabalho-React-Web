@@ -54,7 +54,7 @@ export default function Notifica() {
                 >
                     <CheckIcon />
                 </ToggleButton>
-                 Gostaria de ser notificado sobre EEIs que aparecerão na minha localização.
+                 Gostaria de ser notificado se a EEI pode ser vista da minha localização.
             </Grid>
             <Grid item sm={10} xs={12}>
                 <ToggleButton
@@ -66,7 +66,7 @@ export default function Notifica() {
                 >
                     <CheckIcon />
                 </ToggleButton>
-                Gostaria de ser notificado sobre Satélites que aparecerão na minha localização.
+                Gostaria de ser notificado sobre Satélites que podem ser vistos da minha localização.
             </Grid>
             <Grid item sm={10} xs={12}>
                 <ToggleButton
@@ -78,7 +78,7 @@ export default function Notifica() {
                 >
                     <CheckIcon />
                 </ToggleButton>
-                Gostaria de ser notificado sobre Starlinks que aparecerão na minha localização.
+                Gostaria de ser notificado sobre Starlinks que aparecerão da minha localização.
             </Grid>
             <Grid item sm={10} xs={12}>
                 <ToggleButton
@@ -90,7 +90,7 @@ export default function Notifica() {
                 >
                     <CheckIcon />
                 </ToggleButton> 
-                Gostaria de ser notificado sobre Rádio Satélites que aparecerão na minha localização.
+                Gostaria de ser notificado sobre Rádio Satélites que aparecerão da minha localização.
             </Grid>
             <Grid item sm={10} xs={12}>
                 <ToggleButton
@@ -102,7 +102,7 @@ export default function Notifica() {
                 >
                     <CheckIcon />
                 </ToggleButton> 
-                Gostaria de ser notificado sobre Cometas que aparecerão na minha localização.
+                Gostaria de ser notificado sobre Cometas que aparecerão da minha localização.
             </Grid>
             <Grid item sm={10} xs={12}>
                 <ToggleButton
@@ -114,7 +114,7 @@ export default function Notifica() {
                 >
                     <CheckIcon />
                 </ToggleButton> 
-                Gostaria de ser notificado sobre Planetas que aparecerão na minha localização.
+                Gostaria de ser notificado sobre Planetas que aparecerão da minha localização.
             </Grid>
             <Button
                     variant="contained"

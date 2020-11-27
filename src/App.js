@@ -20,8 +20,6 @@ export default function App() {
           setUser(null)
         }
       })
-
-
   }, [])
 
   const PrivateRoute = ({ component: Component }) => {
@@ -32,10 +30,7 @@ export default function App() {
         } else {
           return <Redirect to={{ pathname: "/Login" }} />
         }
-
-
       })}
-
     />
   }
 

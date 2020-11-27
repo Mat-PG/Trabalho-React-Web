@@ -8,8 +8,7 @@ export default function EventoCadastro(props) {
     const [evento, setEvento] = useState("")
     const [local, setLocal] = useState("")
     const [direcao, setDirecao] = useState("")
-    const [data, setData] = useState("")
-    const [hora, setHora] = useState("")
+    const [dataehora, setDataeHora] = useState("")
 
     const limpar = () => {
 
@@ -25,8 +24,7 @@ export default function EventoCadastro(props) {
         let objeto = {
             evento: evento,
             local: local,
-            data: data,
-            hora: hora,
+            data: dataehora,
             direcao: direcao
         }
 
@@ -64,8 +62,8 @@ export default function EventoCadastro(props) {
                     type="email"
                     style={{ width: "100%", marginBottom: 10 }} />
                 <TextField
-                    value={data}
-                    onChange={(e) => setData(e.target.value)}
+                    value={dataehora}
+                    onChange={(e) => setDataeHora(e.target.value)}
                     label="Data e Hora"
                     variant="outlined"
                     size="small"
@@ -76,14 +74,6 @@ export default function EventoCadastro(props) {
                     variant="outlined"
                     value={direcao}
                     onChange={(e) => setDirecao(e.target.value)}
-                    size="small"
-                    type="email"
-                    style={{ width: "100%", marginBottom: 10 }} />
-                <TextField
-                    label="Hora"
-                    variant="outlined"
-                    value={hora}
-                    onChange={(e) => setHora(e.target.value)}
                     size="small"
                     type="email"
                     style={{ width: "100%", marginBottom: 10 }} />

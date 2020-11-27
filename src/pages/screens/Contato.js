@@ -8,15 +8,14 @@ function Contato() {
     const [nome, setNome] = useState("")
     const [email, setEmail] = useState("")
     const [assunto, setAssunto] = useState("")
-    const [menssagem, setmenssagem] = useState("")
+    const [menssagem, setMenssagem] = useState("")
 
     const limpar = () => {
 
         setNome("")
         setEmail("")
         setAssunto("")
-        setmenssagem("")
-        setHora("")
+        setMenssagem("")
     }
 
     const salvarMensagem = () => {
@@ -24,14 +23,14 @@ function Contato() {
         let objeto = {
             nome: nome,
             email: email,
+            assunto: assunto,
             menssagem: menssagem,
-            assunto: assunto
         }
 
         let code = uuidv4()
 
         Firebase
-            .menssagembase()
+            .database()
             .ref(`menssagem/${code}`)
             .set(objeto)
             .then(() => {
