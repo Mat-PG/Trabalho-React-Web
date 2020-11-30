@@ -8,14 +8,14 @@ function Contato() {
     const [nome, setNome] = useState("")
     const [email, setEmail] = useState("")
     const [assunto, setAssunto] = useState("")
-    const [menssagem, setMenssagem] = useState("")
+    const [mensagem, setMensagem] = useState("")
 
     const limpar = () => {
 
         setNome("")
         setEmail("")
         setAssunto("")
-        setMenssagem("")
+        setMensagem("")
     }
 
     const salvarMensagem = () => {
@@ -24,14 +24,14 @@ function Contato() {
             nome: nome,
             email: email,
             assunto: assunto,
-            menssagem: menssagem,
+            mensagem: mensagem,
         }
 
         let code = uuidv4()
 
         Firebase
             .database()
-            .ref(`menssagem/${code}`)
+            .ref(`mensagem/${code}`)
             .set(objeto)
             .then(() => {
                 limpar()
@@ -69,9 +69,9 @@ function Contato() {
                     type="name"
                     style={{ width: "20%", marginLeft: '15%', marginBottom: 10 }} />
                 <TextField
-                    value={menssagem}
+                    value={mensagem}
                     onChange={(e) => setMenssagem(e.target.value)}
-                    label="Menssagem"
+                    label="Mensagem"
                     multiline
                     id="standard-multiline-flexible"
                     variant="outlined"

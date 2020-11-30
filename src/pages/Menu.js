@@ -69,7 +69,7 @@ export default function Menu() {
                                 <MenuItem onClick={() => setScreen(2)}>ENVIAR EVENTO</MenuItem>
                                 <MenuItem onClick={() => setScreen(3)}>LISTA DE EVENTOS</MenuItem>
                                 <MenuItem onClick={() => setScreen(4)}>Entre em contato conosco</MenuItem>
-                                <MenuItem onClick={() => setScreen(5)}>Menssagens</MenuItem>
+                                <MenuItem onClick={() => setScreen(5)}>Feed</MenuItem>
                                 <MenuItem>
                                     <Button
                                         onClick={logoff}

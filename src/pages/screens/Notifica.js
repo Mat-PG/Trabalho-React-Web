@@ -121,7 +121,7 @@ export default function Notifica() {
                     color="primary"
                     onClick={salvarEvento}
                     style={{ float: "right" }}>
-                    Enviar Dados
+                    Ok
                 </Button>
         </Grid >
 

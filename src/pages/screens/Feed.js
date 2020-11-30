@@ -19,7 +19,7 @@ export default function Feed(props) {
 
         Firebase
             .database()
-            .ref(`/menssagem`)
+            .ref(`/mensagem`)
             .on('value', snapchot => {
                 // converter objetos em listas
                 if (snapchot.val()) {
@@ -59,7 +59,7 @@ export default function Feed(props) {
                             {lista.map((item, key) => {
                                 return <TableRow key={key}>
                                     <TableCell component="th" scope="row">{item.nome}</TableCell>
-                                    <TableCell align="right">{item.menssagem}</TableCell>
+                                    <TableCell align="right">{item.mensagem}</TableCell>
                                     <TableCell align="right">
                                         <Button
                                             variant="contained"
