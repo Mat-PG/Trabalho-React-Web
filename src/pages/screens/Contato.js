@@ -70,7 +70,7 @@ function Contato() {
                     style={{ width: "20%", marginLeft: '15%', marginBottom: 10 }} />
                 <TextField
                     value={mensagem}
-                    onChange={(e) => setMenssagem(e.target.value)}
+                    onChange={(e) => setMensagem(e.target.value)}
                     label="Mensagem"
                     multiline
                     id="standard-multiline-flexible"
