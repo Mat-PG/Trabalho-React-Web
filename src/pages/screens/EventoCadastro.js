@@ -15,8 +15,7 @@ export default function EventoCadastro(props) {
         setEvento("")
         setLocal("")
         setDirecao("")
-        setData("")
-        setHora("")
+        setDataeHora("")
     }
 
     const salvarEvento = () => {
